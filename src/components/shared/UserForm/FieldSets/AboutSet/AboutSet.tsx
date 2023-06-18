@@ -1,4 +1,4 @@
-import styles, { modalIcon } from './AboutSet.module.css';
+import styles from './AboutSet.module.css';
 import { TextArea } from '../../../../ui/TextArea/TextArea';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { useAppDispatch, useAppSelector } from '../../../../../redux/hooks';
@@ -83,7 +83,7 @@ export const AboutSet = ({ prevStep }: Props) => {
           {isLoading && (
             <>
               <p className={styles.modalMessage}>Отправка формы</p>
-              <div className={modalIcon}></div>
+              <div className={styles.modalIcon}></div>
               <div className={styles.modalButton} />
             </>
           )}
@@ -92,7 +92,7 @@ export const AboutSet = ({ prevStep }: Props) => {
               {data.status === 'success' ? (
                 <>
                   <p className={styles.modalMessage}>{data.message}</p>
-                  <div className={modalIcon}>
+                  <div className={styles.modalIcon}>
                     <img src={'/src/assets/svg/success.svg'} />
                   </div>
                   <Button text='На главную' onClick={() => navigate('/')} />
@@ -105,7 +105,7 @@ export const AboutSet = ({ prevStep }: Props) => {
                       <img src='/src/assets/svg/close.svg'></img>
                     </IconButton>
                   </div>
-                  <div className={modalIcon}>
+                  <div className={styles.modalIcon}>
                     <img src={'/src/assets/svg/error.svg'} />
                   </div>
                   <div className={styles.modalButtonCloseWrapper}>
@@ -123,7 +123,7 @@ export const AboutSet = ({ prevStep }: Props) => {
                   <img src='/src/assets/svg/close.svg'></img>
                 </IconButton>
               </div>
-              <div className={modalIcon}>
+              <div className={styles.modalIcon}>
                 <img src={'/src/assets/svg/error.svg'} />
               </div>
               <div className={styles.modalButtonCloseWrapper}>
