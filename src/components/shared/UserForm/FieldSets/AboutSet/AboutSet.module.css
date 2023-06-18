@@ -7,7 +7,7 @@
   margin: 0;
 }
 .modalwrapper {
-  width: 396px;
+  max-width: 396px;
   padding: 32px;
   display: flex;
   flex-direction: column;
