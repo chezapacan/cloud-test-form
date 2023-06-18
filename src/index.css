@@ -45,7 +45,6 @@ a:hover {
 body {
   margin: 0;
   padding: 24px;
-  overflow-x: hidden;
 }
 
 /* fix react-form-stepper connector position bug */
