@@ -1,0 +1,21 @@
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+.links {
+  display: flex;
+  gap: 16px;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.08);
+  margin: 24px 0px;
+}

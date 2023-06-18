@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'SB-Sans';
+  src: local('SB-Sans'), url('assets/fonts/SB-Sans/SB-Sans-Interface.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SB-Sans';
+  src: local('SB-Sans'),
+    url('assets/fonts/SB-Sans/SB-Sans-Interface-Semibold.ttf');
+  font-weight: bold;
+}
+
+:root {
+  font-family: 'SB-Sans';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--color-text);
+  background-color: #f4f4f5;
+
+  --color-primary: #5558fa;
+  --color-primary-dark: #484bd5;
+  --color-primary-dark-2: #4042bc;
+  --color-primary-light: #aaabfd;
+  --color-text: #333333;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 400;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  overflow-x: hidden;
+}
+
+/* fix react-form-stepper connector position bug */
+#RFS-ConnectorContainer {
+  top: 4px;
+}

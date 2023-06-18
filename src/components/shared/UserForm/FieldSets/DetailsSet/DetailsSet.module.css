@@ -1,0 +1,16 @@
+.fieldset {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.buttons {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

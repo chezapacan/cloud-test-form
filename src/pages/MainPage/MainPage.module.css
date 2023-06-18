@@ -1,0 +1,11 @@
+.wrapper {
+  padding: 25px 24px 80px 24px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+  max-width: 400px;
+}

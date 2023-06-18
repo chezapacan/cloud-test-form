@@ -1,0 +1,8 @@
+.paper {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}

@@ -1,0 +1,37 @@
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 336px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.addButtonIcon {
+  height: 20px;
+  width: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantageItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.buttons {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

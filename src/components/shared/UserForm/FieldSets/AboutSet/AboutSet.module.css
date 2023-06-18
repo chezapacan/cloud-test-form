@@ -1,0 +1,46 @@
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.modalwrapper {
+  width: 396px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+.modalMessage {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.modalIcon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.modalButton {
+  height: 44px;
+}
+.modalErrorMessage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modalButtonCloseWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.buttons {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

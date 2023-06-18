@@ -1,0 +1,12 @@
+.iconbutton {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconbutton:hover {
+  filter: brightness(75%);
+}

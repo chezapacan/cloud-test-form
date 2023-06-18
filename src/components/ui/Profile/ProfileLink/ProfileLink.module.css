@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  gap: 4px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin: auto;
+}

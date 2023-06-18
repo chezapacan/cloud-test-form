@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 52px;
+}
+
+.stepper {
+  z-index: 1;
+}
+
+.step {
+  z-index: 2;
+}
+
+.labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -12px;
+  color: #666666;
+}
+
+.activeLabel {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.complitedLabel {
+  color: var(--color-primary);
+}

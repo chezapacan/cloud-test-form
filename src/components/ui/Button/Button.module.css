@@ -1,0 +1,37 @@
+.button {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 0px 16px;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'SB-Sans';
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--color-primary-dark);
+}
+.button:active {
+  background-color: var(--color-primary-dark-2);
+}
+
+.outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+.outline:hover {
+  background-color: transparent;
+  border: 1.5px solid var(--color-primary-dark);
+  color: var(--color-primary-dark);
+}
+.outline:active {
+  background-color: transparent;
+  border: 1.5px solid var(--color-primary-dark-2);
+  color: var(--color-primary-dark-2);
+}
