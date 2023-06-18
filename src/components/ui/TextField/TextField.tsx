@@ -5,11 +5,11 @@ type Props = {
   id?: string;
   label?: string;
   placeholder?: string;
+  value?: string;
   defaultValue?: string;
   disabled?: boolean;
   name: Path<any>;
   type?: string;
-  onChange?: (elem: React.ChangeEvent<HTMLInputElement>) => void;
   reactHookForm?: ReactHookForm;
 };
 
@@ -36,8 +36,8 @@ export const TextField = (props: Props) => {
     disabled,
     name,
     type,
-    onChange,
     reactHookForm,
+    value,
   } = props;
 
   return (
@@ -62,7 +62,7 @@ export const TextField = (props: Props) => {
           },
           pattern: reactHookForm.pattern,
         })}
-        onChange={onChange}
+        value={value}
       />
       {reactHookForm?.errors && (
         <p className={styles.error}>

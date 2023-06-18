@@ -3,10 +3,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
 }
 
 .title {
   font-size: 28px;
   font-weight: 32px;
   font-weight: bold;
+}
+
+.kek {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  background-image: url('https://cdn.7tv.app/emote/60aef2b6361b0164e690f782/2x.webp');
+}
+
+.kek:hover {
+  background-image: url('https://cdn.7tv.app/emote/60a487509485e7cf2f5a6fa7/2x.webp');
 }

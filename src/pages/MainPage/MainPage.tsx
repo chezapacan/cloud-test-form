@@ -20,6 +20,7 @@ export const MainPage = () => {
     register,
     formState: { errors, isValid },
     handleSubmit,
+    watch,
   } = useForm<MainPageType>({
     defaultValues: {
       phone: '+7 (919) 903-28-06',
@@ -34,10 +35,7 @@ export const MainPage = () => {
     }
   };
 
-  const handleChangePhone = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const phoneNumber = normalizePhoneNumber(event.target.value);
-    event.target.value = phoneNumber;
-  };
+  const phoneNumber = normalizePhoneNumber(watch('phone'));
 
   return (
     <Paper>
@@ -49,13 +47,13 @@ export const MainPage = () => {
               name='phone'
               label='Номер телефона'
               placeholder='+7 (999) 999-99-99'
+              value={phoneNumber}
               reactHookForm={{
                 errors: errors.phone,
                 register: register,
                 required: 'Обязательное поле',
                 minLength: 18,
               }}
-              onChange={handleChangePhone}
               disabled
             />
             <TextField
