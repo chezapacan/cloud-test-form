@@ -59,7 +59,7 @@ export const SelectField = (props: Props) => {
         >
           {selectedOption || placeholder}
           <div className={styles.icon}>
-            <img src='/src/assets/svg/select.svg' />
+            <img src='assets/svg/select.svg' />
           </div>
         </div>
         {isOpen && (

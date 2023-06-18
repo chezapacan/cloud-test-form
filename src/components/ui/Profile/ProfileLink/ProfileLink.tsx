@@ -8,7 +8,7 @@ type Props = {
 export const ProfileLink = ({ url, text }: Props) => {
   return (
     <div className={styles.wrapper}>
-      <img className={styles.icon} src='/src/assets/svg/folder.svg' />
+      <img className={styles.icon} src='/assets/svg/folder.svg' />
       <a href={url} target='_blank'>
         {text}
       </a>

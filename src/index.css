@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'SB-Sans';
-  src: local('SB-Sans'), url('assets/fonts/SB-Sans/SB-Sans-Interface.ttf');
+  src: local('SB-Sans'),
+    url('/public/assets/fonts/SB-Sans/SB-Sans-Interface.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'SB-Sans';
   src: local('SB-Sans'),
-    url('assets/fonts/SB-Sans/SB-Sans-Interface-Semibold.ttf');
+    url('/public/assets/fonts/SB-Sans/SB-Sans-Interface-Semibold.ttf');
   font-weight: bold;
 }
 

@@ -19,10 +19,10 @@ export const StepperForm = ({ count, activeStep }: Props) => {
 
   const stepIcon = (index: number) => {
     if (index < activeStep) {
-      return <img src='/src/assets/svg/complite.svg' />;
+      return <img src='assets/svg/complite.svg' />;
     }
     if (index === activeStep) {
-      return <img src='/src/assets/svg/active.svg' />;
+      return <img src='assets/svg/active.svg' />;
     }
     return null;
   };

@@ -34,7 +34,7 @@
 .checkbox:checked + label::before {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
-  background-image: url('/src/assets/svg/checkbox.svg');
+  background-image: url('assets/svg/checkbox.svg');
 }
 
 .checkbox:hover + label::before {

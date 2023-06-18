@@ -79,7 +79,7 @@ export const AdvantagesSet = ({ nextStep, prevStep }: Props) => {
         id={`button-remove-${index + 1}`}
         onClick={() => remove(index)}
       >
-        <img src='/src/assets/svg/trash.svg' />
+        <img src='assets/svg/trash.svg' />
       </IconButton>
     </div>
   ));
@@ -117,7 +117,7 @@ export const AdvantagesSet = ({ nextStep, prevStep }: Props) => {
               onClick={() => append({ advantage: '' })}
             >
               <div className={styles.addButtonIcon}>
-                <img src='/src/assets/svg/plus.svg' />
+                <img src='assets/svg/plus.svg' />
               </div>
             </Button>
           </div>

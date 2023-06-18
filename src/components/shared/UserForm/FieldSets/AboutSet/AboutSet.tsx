@@ -93,7 +93,7 @@ export const AboutSet = ({ prevStep }: Props) => {
                 <>
                   <p className={styles.modalMessage}>{data.message}</p>
                   <div className={styles.modalIcon}>
-                    <img src={'/src/assets/svg/success.svg'} />
+                    <img src={'assets/svg/success.svg'} />
                   </div>
                   <Button text='На главную' onClick={() => navigate('/')} />
                 </>
@@ -102,11 +102,11 @@ export const AboutSet = ({ prevStep }: Props) => {
                   <div className={styles.modalErrorMessage}>
                     <p className={styles.modalMessage}>{data.message}</p>
                     <IconButton onClick={handleCloseModal}>
-                      <img src='/src/assets/svg/close.svg'></img>
+                      <img src='assets/svg/close.svg'></img>
                     </IconButton>
                   </div>
                   <div className={styles.modalIcon}>
-                    <img src={'/src/assets/svg/error.svg'} />
+                    <img src={'assets/svg/error.svg'} />
                   </div>
                   <div className={styles.modalButtonCloseWrapper}>
                     <Button text='Закрыть' onClick={handleCloseModal} />
@@ -120,11 +120,11 @@ export const AboutSet = ({ prevStep }: Props) => {
               <div className={styles.modalErrorMessage}>
                 <p className={styles.modalMessage}>Ошибка сервера</p>
                 <IconButton onClick={handleCloseModal}>
-                  <img src='/src/assets/svg/close.svg'></img>
+                  <img src='assets/svg/close.svg'></img>
                 </IconButton>
               </div>
               <div className={styles.modalIcon}>
-                <img src={'/src/assets/svg/error.svg'} />
+                <img src={'assets/svg/error.svg'} />
               </div>
               <div className={styles.modalButtonCloseWrapper}>
                 <Button text='Закрыть' onClick={handleCloseModal} />
