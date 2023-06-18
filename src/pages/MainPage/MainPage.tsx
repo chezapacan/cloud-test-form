@@ -42,7 +42,7 @@ export const MainPage = () => {
   return (
     <Paper>
       <div className={styles.wrapper}>
-        <Profile />
+        <Profile titleName='Дмитрий Микрюков' />
         <form>
           <div className={styles.other}>
             <TextField

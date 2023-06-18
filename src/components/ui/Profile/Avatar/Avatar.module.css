@@ -2,5 +2,12 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: teal;
+  background-color: #d5e4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.initials {
+  font-size: 40px;
+  line-height: 52px;
 }
