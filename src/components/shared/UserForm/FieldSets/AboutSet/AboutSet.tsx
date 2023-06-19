@@ -95,7 +95,11 @@ export const AboutSet = ({ prevStep }: Props) => {
                   <div className={styles.modalIcon}>
                     <img src={'assets/svg/success.svg'} />
                   </div>
-                  <Button text='На главную' onClick={() => navigate('/')} />
+                  <Button
+                    id='button-to-main'
+                    text='На главную'
+                    onClick={() => navigate('/')}
+                  />
                 </>
               ) : (
                 <>
@@ -109,7 +113,11 @@ export const AboutSet = ({ prevStep }: Props) => {
                     <img src={'assets/svg/error.svg'} />
                   </div>
                   <div className={styles.modalButtonCloseWrapper}>
-                    <Button text='Закрыть' onClick={handleCloseModal} />
+                    <Button
+                      id='button-close'
+                      text='Закрыть'
+                      onClick={handleCloseModal}
+                    />
                   </div>
                 </>
               )}
@@ -127,7 +135,11 @@ export const AboutSet = ({ prevStep }: Props) => {
                 <img src={'assets/svg/error.svg'} />
               </div>
               <div className={styles.modalButtonCloseWrapper}>
-                <Button text='Закрыть' onClick={handleCloseModal} />
+                <Button
+                  id='button-close'
+                  text='Закрыть'
+                  onClick={handleCloseModal}
+                />
               </div>
             </>
           )}
